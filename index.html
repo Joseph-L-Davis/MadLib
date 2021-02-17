@@ -14,79 +14,60 @@
 </head>
 
 <body>
-    <h1>SWEET JUNGLE BOOK MADLIB!!</h1>
-    <img src="https://d23.com/app/uploads/2016/08/1180w-600h_081716_richard-sherman-i-wanna-be-like-you-b.jpg" alt="Animals Dancing">
-    <!--MONKEY IMAGE-->
- <!--<p> INSTRUCTIONS</p>   -->
- <p id="intro">Choose a word for each part of speech specified below...<br>
-     Click the MadLib! button to see your rad song!
- </p>
-
-  <label> 
-      <input id="plural-noun-1-input" placeholder="plural noun">  </input>
-    </label> <br/>
-  <label> 
-      <input id="noun-2-place-input" placeholder="anywhere in the world">  </input> 
-    </label><br/>
-  <label> 
-      <input id="verb-1-input" placeholder="an action, like push"> </input>
-    </label> <br/>  
-  <label> 
-      <input id="adjective-1-input" placeholder="adjective babaay!"> </input>
-    </label> <br/>
-  <label> 
-      <input id="pronoun-1-input"placeholder="any celebrity"> </input>
-    </label> <br/>
-  <label> 
-      <input id="verb-2-input" placeholder="another damn verb"> </input>
-    </label> <br/>
-  <label> 
-      <input id="noun-3-input" placeholder="person, place or thing"> </input></label>
-       <br/>
-  <label> 
-      <input id="adjective-2-input" placeholder="adjective"> </input>
-  </label> <br/>   
-      <input id="kid-input" placeholder="thing"> </input>
-  </label> <br/>
-
-  <label> <input id="pronoun-2-input" placeholder="same pronoun???"> </input>
-  </label>
-    <span>
-        <br>
+    <main>
+      <section id="instructions">
+        <h1>SWEET JUNGLE BOOK MADLIB!!</h1>
+        <p>Choose a word for each part of speech specified below...<br>
+        Click the MadLib! button to see your rad song!
+        </p>
+      </section>
+      
+      <section id="user-inputs">
+        <input id="input-1" placeholder="plural noun">  
+        <input id="input-2" placeholder="anywhere in the world">  
+        <input id="input-3" placeholder="an action, like push"> 
+        <input id="input-4" placeholder="adjective babaay!"> 
+        <input id="input-5" placeholder="any celebrity"> 
+        <input id="input-6" placeholder="another damn verb"> 
+        <input id="input-7" placeholder="person, place or thing"> 
+        <input id="input-8" placeholder="adjective">   
+        <input id="input-9" placeholder="thing"> 
+        <input id="input-10" placeholder="pronoun"> 
         <button id="button">MadLib!</button>
-    </span> 
-    <section id="song-lyrics">
-    <p id="hidden"> <!--HIDE TIL ITS TIME-->
-        <br>
-        Now I'm the king of the  <span id="plural-noun-1"></span> <br/>
-        Oh, the  <span id="noun-2-place"></span> VIP <br/>
-        I've reached the top and had to stop <br/>
-        And that's what botherin' me <br/>
-        I wanna be a man, mancub <br/>
-        And  <span id="verb-1"></span> right into town <br/>
-        And be just like the  <span id="adjective-1"></span> other men <br/>
-        I'm tired of monkeyin' around! <br/> <br/>
-        Oh, oobee doo <br/>
-        I wanna be like  <span id="pronoun-1"></span> <br/>
-        I wanna walk like you <br/>
-         <span id="verb-2"></span>Talk like you, too <br/>
-        You'll see it's true <br/>
-        An  <span id="noun-3"></span> like me <br/>
-        Can learn to be human too <br/> <br/> 
-        Now don't try to kid me,  <span id="kid"></span> <br/>
-        I made a deal with you <br/>
-        What I desire is man's  <span id="adjective-2"></span> fire <br/>
-        To make my dream come true <br/>
-        Give me the secret, mancub <br/>
-        Clue me what to do <br/>
-        Give me the power of man's red flower <br/>
-        So I can be like  <span id="pronoun-2"></span>
-    </p>
-    <!--PLACEHOLDERS *(NOUN, VERB ETC.)-->
-    </section>
+      </section>  
 
-    <footer> &copy; Daniella, Matt and Joe Enterprise 2021</footer>
+      <section id="song-lyrics">
+        <p id="hidden" hidden> <!--HIDE TIL ITS TIME-->
+          <br>
+          Now I'm the king of the  <span id="display-1"></span> <br/>
+          Oh, the  <span id="display-2"></span> VIP <br/>
+          I've reached the top and had to stop <br/>
+          And that's what botherin' me <br/>
+          I wanna be a man, mancub <br/>
+          And  <span id="display-3"></span> right into town <br/>
+          And be just like the  <span id="display-4"></span> other men <br/>
+          I'm tired of monkeyin' around! <br/> <br/>
+          Oh, oobee doo <br/>
+          I wanna be like  <span id="display-5"></span> <br/>
+          I wanna walk like you <br/>
+            <span id="display-6"></span>Talk like you, too <br/>
+          You'll see it's true <br/>
+          An  <span id="display-7"></span> like me <br/>
+          Can learn to be human too <br/> <br/> 
+          Now don't try to kid me,  <span id="display-8"></span> <br/>
+          I made a deal with you <br/>
+          What I desire is man's  <span id="display-9"></span> fire <br/>
+          To make my dream come true <br/>
+          Give me the secret, mancub <br/>
+          Clue me what to do <br/>
+          Give me the power of man's red flower <br/>
+          So I can be like  <span id="display-10"></span>
+      </p>
+      <!--PLACEHOLDERS *(NOUN, VERB ETC.)-->
+      </section>
+  </main>
+  <footer> &copy; Daniella, Matt and Joe Enterprise 2021</footer>
   
 </body>
-<script src='app.js'> </script>
+<script type="module" src='app.js'> </script>
 </html>
